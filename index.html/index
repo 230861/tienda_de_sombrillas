@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Sombrillas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: hwb(0 1% 94%);
+            background-image: url('espacio.gif'); /* Cambia esto por la ruta de tu archivo */
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: backgroundAnimation 10s infinite linear; /* Cambia el tiempo de animación según tus preferencias */
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        .gif-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a nuestra Tienda de Sombrillas</h1>
+    <p>Explora nuestra selección de sombrillas de alta calidad.</p>
+    
+    <div class="gif-container">
+        <img src="sombrilla.gif" alt="Animación de sombrillas" width="300" height="200">
+    </div>
+</body>
+</html>
